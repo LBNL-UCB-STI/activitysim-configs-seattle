@@ -122,7 +122,7 @@ CONSTANTS:
     3: 0
     4: 0
     5: 0
-  TNC_single_baseFare: 2.20
+  TNC_single_baseFare: 7.20
   TNC_single_costPerMile: 1.33
   TNC_single_costPerMinute: 0.24
   TNC_single_costMinimum: 7.20
@@ -138,7 +138,7 @@ CONSTANTS:
     3: 0
     4: 0
     5: 0
-  TNC_shared_baseFare: 2.20
+  TNC_shared_baseFare: 7.20
   TNC_shared_costPerMile: 0.53
   TNC_shared_costPerMinute: 0.10
   TNC_shared_costMinimum: 3.00
