@@ -90,8 +90,8 @@ models:
   - trip_purpose_and_destination
   - trip_scheduling
   - trip_mode_choice
-  ### mp_summarize step
   - generate_beam_plans
+  ### mp_summarize step
   - write_data_dictionary
   - write_tables
 
@@ -105,7 +105,7 @@ multiprocess_steps:
         - households
         - persons
   - name: mp_summarize
-    begin: generate_beam_plans
+    begin: write_data_dictionary
 
 output_tables:
   action: include
