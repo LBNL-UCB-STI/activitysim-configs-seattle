@@ -158,6 +158,7 @@ CONSTANTS:
   min_waitTime: 0
   max_waitTime: 50
   TNC_missed_trip_penalty: 60
+  ridehail_wait_time_multiplier: 1.5
 
 # so far, we can use the same spec as for non-joint tours
 preprocessor:

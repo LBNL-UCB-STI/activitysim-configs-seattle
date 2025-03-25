@@ -152,6 +152,7 @@ CONSTANTS:
     drvtrn_distpen_0_multiplier: 270
     drvtrn_distpen_max: 15
     density_index_multiplier: -0.2
+    ridehail_wait_time_multiplier: 1.5
 #    joint_sr2_ASC_no_auto: 0
 #    joint_sr2_ASC_auto_deficient: 0
 #    joint_sr2_ASC_auto_sufficient: 0
