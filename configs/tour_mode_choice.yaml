@@ -55,8 +55,8 @@ NESTS:
           - TNC_SHARED
 
 SPEC: tour_mode_choice.csv
-COEFFICIENTS: tour_mode_choice_coeffs.csv
-COEFFICIENT_TEMPLATE: tour_mode_choice_coeffs_template.csv
+COEFFICIENTS: tour_mode_choice_coeffs_v3.csv
+COEFFICIENT_TEMPLATE: tour_mode_choice_coeffs_template_v3.csv
 
 CONSTANTS:
     #valueOfTime: 8.00
@@ -92,7 +92,7 @@ CONSTANTS:
       3: 0
       4: 0
       5: 0
-    TNC_single_baseFare: 2.20
+    TNC_single_baseFare: 7.20
     TNC_single_costPerMile: 1.33
     TNC_single_costPerMinute: 0.24
     TNC_single_costMinimum: 7.20
@@ -108,7 +108,7 @@ CONSTANTS:
       3: 0
       4: 0
       5: 0
-    TNC_shared_baseFare: 2.20
+    TNC_shared_baseFare: 7.20
     TNC_shared_costPerMile: 0.53
     TNC_shared_costPerMinute: 0.10
     TNC_shared_costMinimum: 3.00
@@ -127,7 +127,7 @@ CONSTANTS:
       5: 0
     min_waitTime: 0
     max_waitTime: 50
-    TNC_missed_trip_penalty: 50
+    TNC_missed_trip_penalty: 60
 
     ivt_cost_multiplier: 0.6
     ivt_lrt_multiplier: 0.9
