@@ -37,7 +37,6 @@ NESTS:
               - WALK_LOC
               - WALK_LRF
               - WALK_EXP
-              - WALK_HVY
               - WALK_COM
             - name: DRIVEACCESS
               coefficient: coef_nest_TRANSIT_DRIVEACCESS
@@ -45,7 +44,6 @@ NESTS:
               - DRIVE_LOC
               - DRIVE_LRF
               - DRIVE_EXP
-              - DRIVE_HVY
               - DRIVE_COM
       - name: RIDEHAIL
         coefficient: coef_nest_RIDEHAIL
@@ -133,7 +131,6 @@ CONSTANTS:
     ivt_lrt_multiplier: 0.9
     ivt_ferry_multiplier: 0.8
     ivt_exp_multiplier: 1
-    ivt_hvy_multiplier: 0.8
     ivt_com_multiplier: 0.7
     walktimeshort_multiplier: 2
     walktimelong_multiplier: 10
