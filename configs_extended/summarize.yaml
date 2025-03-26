@@ -5,7 +5,7 @@ OUTPUT: summarize
 EXPORT_PIPELINE_TABLES: False
 
 preprocessor:
-  DF: trips_mergerd
+  DF: trips_merged
   SPEC: summarize_preprocessor.csv
 #  TABLES:
 
