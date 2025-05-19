@@ -15,7 +15,8 @@
 #
 
 inherit_settings: True
-cleanup_pipeline_after_run: False
+cleanup_pipeline_after_run: True
+delete_pipeline_files_during_cleanup: False
 
 # input tables 
 input_table_list:
