@@ -92,11 +92,9 @@ trips_merged:
         SHARED3PAY: HOV
         WALK_LOC: Transit
         WALK_LRF: Transit
-        WALK_EXP: Transit
         WALK_COM: Transit
         DRIVE_LOC: Transit
         DRIVE_LRF: Transit
-        DRIVE_EXP: Transit
         DRIVE_COM: Transit
         DRIVEACCESS: Transit
         WALK: Non-Motorized
@@ -115,11 +113,9 @@ trips_merged:
         SHARED3PAY: HOV
         WALK_LOC: Walk to Transit
         WALK_LRF: Walk to Transit
-        WALK_EXP: Walk to Transit
         WALK_COM: Walk to Transit
         DRIVE_LOC: Drive to Transit
         DRIVE_LRF: Drive to Transit
-        DRIVE_EXP: Drive to Transit
         DRIVE_COM: Drive to Transit
         WALK: Non-Motorized
         BIKE: Non-Motorized

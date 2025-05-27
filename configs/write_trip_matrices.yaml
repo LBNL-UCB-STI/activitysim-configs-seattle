@@ -36,24 +36,18 @@ MATRICES:
         data_field: WALK_LOC_WALK_EA
       - name: WALK_LRF_WALK_EA
         data_field: WALK_LRF_WALK_EA
-      - name: WALK_EXP_WALK_EA
-        data_field: WALK_EXP_WALK_EA
       - name: WALK_COM_WALK_EA
         data_field: WALK_COM_WALK_EA
       - name: DRIVE_LOC_WALK_EA
         data_field: DRIVE_LOC_WALK_EA
       - name: DRIVE_LRF_WALK_EA
         data_field: DRIVE_LRF_WALK_EA
-      - name: DRIVE_EXP_WALK_EA
-        data_field: DRIVE_EXP_WALK_EA
       - name: DRIVE_COM_WALK_EA
         data_field: DRIVE_COM_WALK_EA
       - name: WALK_LOC_DRIVE_EA
         data_field: WALK_LOC_DRIVE_EA
       - name: WALK_LRF_DRIVE_EA
         data_field: WALK_LRF_DRIVE_EA
-      - name: WALK_EXP_DRIVE_EA
-        data_field: WALK_EXP_DRIVE_EA
       - name: WALK_COM_DRIVE_EA
         data_field: WALK_COM_DRIVE_EA
   - file_name: trips_am.omx
@@ -78,24 +72,18 @@ MATRICES:
         data_field: WALK_LOC_WALK_AM
       - name: WALK_LRF_WALK_AM
         data_field: WALK_LRF_WALK_AM
-      - name: WALK_EXP_WALK_AM
-        data_field: WALK_EXP_WALK_AM
       - name: WALK_COM_WALK_AM
         data_field: WALK_COM_WALK_AM
       - name: DRIVE_LOC_WALK_AM
         data_field: DRIVE_LOC_WALK_AM
       - name: DRIVE_LRF_WALK_AM
         data_field: DRIVE_LRF_WALK_AM
-      - name: DRIVE_EXP_WALK_AM
-        data_field: DRIVE_EXP_WALK_AM
       - name: DRIVE_COM_WALK_AM
         data_field: DRIVE_COM_WALK_AM
       - name: WALK_LOC_DRIVE_AM
         data_field: WALK_LOC_DRIVE_AM
       - name: WALK_LRF_DRIVE_AM
         data_field: WALK_LRF_DRIVE_AM
-      - name: WALK_EXP_DRIVE_AM
-        data_field: WALK_EXP_DRIVE_AM
       - name: WALK_COM_DRIVE_AM
         data_field: WALK_COM_DRIVE_AM
   - file_name: trips_md.omx
@@ -120,24 +108,18 @@ MATRICES:
         data_field: WALK_LOC_WALK_MD
       - name: WALK_LRF_WALK_MD
         data_field: WALK_LRF_WALK_MD
-      - name: WALK_EXP_WALK_MD
-        data_field: WALK_EXP_WALK_MD
       - name: WALK_COM_WALK_MD
         data_field: WALK_COM_WALK_MD
       - name: DRIVE_LOC_WALK_MD
         data_field: DRIVE_LOC_WALK_MD
       - name: DRIVE_LRF_WALK_MD
         data_field: DRIVE_LRF_WALK_MD
-      - name: DRIVE_EXP_WALK_MD
-        data_field: DRIVE_EXP_WALK_MD
       - name: DRIVE_COM_WALK_MD
         data_field: DRIVE_COM_WALK_MD
       - name: WALK_LOC_DRIVE_MD
         data_field: WALK_LOC_DRIVE_MD
       - name: WALK_LRF_DRIVE_MD
         data_field: WALK_LRF_DRIVE_MD
-      - name: WALK_EXP_DRIVE_MD
-        data_field: WALK_EXP_DRIVE_MD
       - name: WALK_COM_DRIVE_MD
         data_field: WALK_COM_DRIVE_MD
   - file_name: trips_pm.omx
@@ -162,24 +144,18 @@ MATRICES:
         data_field: WALK_LOC_WALK_PM
       - name: WALK_LRF_WALK_PM
         data_field: WALK_LRF_WALK_PM
-      - name: WALK_EXP_WALK_PM
-        data_field: WALK_EXP_WALK_PM
       - name: WALK_COM_WALK_PM
         data_field: WALK_COM_WALK_PM
       - name: DRIVE_LOC_WALK_PM
         data_field: DRIVE_LOC_WALK_PM
       - name: DRIVE_LRF_WALK_PM
         data_field: DRIVE_LRF_WALK_PM
-      - name: DRIVE_EXP_WALK_PM
-        data_field: DRIVE_EXP_WALK_PM
       - name: DRIVE_COM_WALK_PM
         data_field: DRIVE_COM_WALK_PM
       - name: WALK_LOC_DRIVE_PM
         data_field: WALK_LOC_DRIVE_PM
       - name: WALK_LRF_DRIVE_PM
         data_field: WALK_LRF_DRIVE_PM
-      - name: WALK_EXP_DRIVE_PM
-        data_field: WALK_EXP_DRIVE_PM
       - name: WALK_COM_DRIVE_PM
         data_field: WALK_COM_DRIVE_PM
   - file_name: trips_ev.omx
@@ -204,24 +180,18 @@ MATRICES:
         data_field: WALK_LOC_WALK_EV
       - name: WALK_LRF_WALK_EV
         data_field: WALK_LRF_WALK_EV
-      - name: WALK_EXP_WALK_EV
-        data_field: WALK_EXP_WALK_EV
       - name: WALK_COM_WALK_EV
         data_field: WALK_COM_WALK_EV
       - name: DRIVE_LOC_WALK_EV
         data_field: DRIVE_LOC_WALK_EV
       - name: DRIVE_LRF_WALK_EV
         data_field: DRIVE_LRF_WALK_EV
-      - name: DRIVE_EXP_WALK_EV
-        data_field: DRIVE_EXP_WALK_EV
       - name: DRIVE_COM_WALK_EV
         data_field: DRIVE_COM_WALK_EV
       - name: WALK_LOC_DRIVE_EV
         data_field: WALK_LOC_DRIVE_EV
       - name: WALK_LRF_DRIVE_EV
         data_field: WALK_LRF_DRIVE_EV
-      - name: WALK_EXP_DRIVE_EV
-        data_field: WALK_EXP_DRIVE_EV
       - name: WALK_COM_DRIVE_EV
         data_field: WALK_COM_DRIVE_EV
 
