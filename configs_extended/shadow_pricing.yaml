@@ -11,7 +11,7 @@ LOAD_SAVED_SHADOW_PRICES: False
 WRITE_ITERATION_CHOICES: False
 
 # number of shadow price iterations for cold start
-MAX_ITERATIONS: 10
+MAX_ITERATIONS: 50
 
 # number of shadow price iterations for warm start (after loading saved shadow_prices)
 MAX_ITERATIONS_SAVED: 1
@@ -41,10 +41,10 @@ school_segmentation_targets:
 # if target names are the same, they will be combined together
 workplace_segmentation_targets:
   # using total employment scaled to remove external workers. see annotate_landuse.csv
-  work_low: TOTEMP_scaled
-  work_med: TOTEMP_scaled
-  work_high: TOTEMP_scaled
-  work_veryhigh: TOTEMP_scaled
+  work_low: TOTEMP
+  work_med: TOTEMP
+  work_high: TOTEMP
+  work_veryhigh: TOTEMP
 
 # --- ctramp method settings
 DAMPING_FACTOR: 1
