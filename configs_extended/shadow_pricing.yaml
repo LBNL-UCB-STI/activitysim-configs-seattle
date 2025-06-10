@@ -11,7 +11,7 @@ LOAD_SAVED_SHADOW_PRICES: False
 WRITE_ITERATION_CHOICES: False
 
 # number of shadow price iterations for cold start
-MAX_ITERATIONS: 50
+MAX_ITERATIONS: 30
 
 # number of shadow price iterations for warm start (after loading saved shadow_prices)
 MAX_ITERATIONS_SAVED: 1
@@ -22,13 +22,13 @@ MAX_ITERATIONS_SAVED: 1
 SHADOW_PRICE_METHOD: simulation
 
 # ignore criteria for zones smaller than size_threshold
-SIZE_THRESHOLD: 10
+SIZE_THRESHOLD: 30
 # ignore criteria for zones smaller than target_threshold (total employmnet or enrollment)
-TARGET_THRESHOLD: 20
+TARGET_THRESHOLD: 40
 # zone passes if modeled is within percent_tolerance of  predicted_size
 PERCENT_TOLERANCE: 5
 # max percentage of zones allowed to fail
-FAIL_THRESHOLD: 1
+FAIL_THRESHOLD: 5
 
 # --- simulation method settings
 # apply different targets for each segment specified in destination_size_terms.csv
