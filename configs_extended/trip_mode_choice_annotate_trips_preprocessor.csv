@@ -73,15 +73,15 @@ dest terminal time not counted at home,_dest_terminal_time,"np.where(inbound & l
 ,_drive_ferry_available_outbound,drive_lrf_available_outbound & (odt_skims['DRV_LRF_WLK_FERRYIVT']/TRANSIT_SCALE_FACTOR>0)
 ,_drive_ferry_available_inbound,drive_lrf_available_inbound & (odt_skims['WLK_LRF_DRV_FERRYIVT']/TRANSIT_SCALE_FACTOR>0)
 ,drive_ferry_available,"np.where(df.outbound, _drive_ferry_available_outbound, _drive_ferry_available_inbound)"
-,walk_local_penalty,odt_skims['WLK_LOC_WLK_FAILURES']/(odt_skims['WLK_LOC_WLK_FAILURES']+odt_skims['WLK_LOC_WLK_TRIPS'])*transit_missed_trip_penalty
-,walk_commuter_penalty,odt_skims['WLK_COM_WLK_FAILURES']/(odt_skims['WLK_COM_WLK_FAILURES']+odt_skims['WLK_COM_WLK_TRIPS'])*transit_missed_trip_penalty
-,walk_lrf_penalty,odt_skims['WLK_LRF_WLK_FAILURES']/(odt_skims['WLK_LRF_WLK_FAILURES']+odt_skims['WLK_LRF_WLK_TRIPS'])*transit_missed_trip_penalty
-,drive_local_penalty_outbound,odt_skims['DRV_LOC_WLK_FAILURES']/(odt_skims['DRV_LOC_WLK_FAILURES']+odt_skims['DRV_LOC_WLK_TRIPS'])*transit_missed_trip_penalty
-,drive_commuter_penalty_outbound,odt_skims['DRV_COM_WLK_FAILURES']/(odt_skims['DRV_COM_WLK_FAILURES']+odt_skims['DRV_COM_WLK_TRIPS'])*transit_missed_trip_penalty
-,drive_lrf_penalty_outbound,odt_skims['DRV_LRF_WLK_FAILURES']/(odt_skims['DRV_LRF_WLK_FAILURES']+odt_skims['DRV_LRF_WLK_TRIPS'])*transit_missed_trip_penalty
-,drive_local_penalty_inbound,odt_skims['WLK_LOC_DRV_FAILURES']/(odt_skims['WLK_LOC_DRV_FAILURES']+odt_skims['WLK_LOC_DRV_TRIPS'])*transit_missed_trip_penalty
-,drive_commuter_penalty_inbound,odt_skims['WLK_COM_DRV_FAILURES']/(odt_skims['WLK_COM_DRV_FAILURES']+odt_skims['WLK_COM_DRV_TRIPS'])*transit_missed_trip_penalty
-,drive_lrf_penalty_inbound,odt_skims['WLK_LRF_DRV_FAILURES']/(odt_skims['WLK_LRF_DRV_FAILURES']+odt_skims['WLK_LRF_DRV_TRIPS'])*transit_missed_trip_penalty
+,walk_local_penalty,odt_skims['WLK_LOC_WLK_FAILURES']/(odt_skims['WLK_LOC_WLK_FAILURES']+odt_skims['WLK_LOC_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,walk_commuter_penalty,odt_skims['WLK_COM_WLK_FAILURES']/(odt_skims['WLK_COM_WLK_FAILURES']+odt_skims['WLK_COM_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,walk_lrf_penalty,odt_skims['WLK_LRF_WLK_FAILURES']/(odt_skims['WLK_LRF_WLK_FAILURES']+odt_skims['WLK_LRF_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,drive_local_penalty_outbound,odt_skims['DRV_LOC_WLK_FAILURES']/(odt_skims['DRV_LOC_WLK_FAILURES']+odt_skims['DRV_LOC_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,drive_commuter_penalty_outbound,odt_skims['DRV_COM_WLK_FAILURES']/(odt_skims['DRV_COM_WLK_FAILURES']+odt_skims['DRV_COM_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,drive_lrf_penalty_outbound,odt_skims['DRV_LRF_WLK_FAILURES']/(odt_skims['DRV_LRF_WLK_FAILURES']+odt_skims['DRV_LRF_WLK_TRIPS']+1)*transit_missed_trip_penalty
+,drive_local_penalty_inbound,odt_skims['WLK_LOC_DRV_FAILURES']/(odt_skims['WLK_LOC_DRV_FAILURES']+odt_skims['WLK_LOC_DRV_TRIPS']+1)*transit_missed_trip_penalty
+,drive_commuter_penalty_inbound,odt_skims['WLK_COM_DRV_FAILURES']/(odt_skims['WLK_COM_DRV_FAILURES']+odt_skims['WLK_COM_DRV_TRIPS']+1)*transit_missed_trip_penalty
+,drive_lrf_penalty_inbound,odt_skims['WLK_LRF_DRV_FAILURES']/(odt_skims['WLK_LRF_DRV_FAILURES']+odt_skims['WLK_LRF_DRV_TRIPS']+1)*transit_missed_trip_penalty
 #,od_dist_walk,od_skims['DISTWALK']
 #,do_dist_walk,od_skims.reverse('DISTWALK')
 #,max_dist_walk,od_skims.max('DISTWALK')
