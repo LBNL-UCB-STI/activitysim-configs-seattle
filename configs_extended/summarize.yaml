@@ -5,7 +5,7 @@ OUTPUT: summarize
 EXPORT_PIPELINE_TABLES: False
 
 preprocessor:
-  DF: trips_merged
+  DF: trips_mergerd
   SPEC: summarize_preprocessor.csv
 #  TABLES:
 
@@ -79,6 +79,33 @@ trips_merged:
       interval: 5
       label_format: "{left:,.2f} - {right:,.2f}" # 'left' and 'right' are bin boundaries
 
+    - column: dist_straight
+      label: distance_quintile
+      type: quantiles
+      bins: 5
+      # Use {rank} to label bins as 1-5
+      label_format: '{rank}'
+
+    - column: dist_straight
+      label: distance_bin
+      type: manual_breaks
+      bin_breaks:
+        - 0
+        - 0.5
+        - 1.0
+        - 2.0
+        - 5.0
+        - 10.0
+        - 200.0
+      bin_labels:
+        - < 0.5 mi
+        - 0.5 - 1 mi
+        - 1 - 2 mi
+        - 2 - 5 mi
+        - 5 - 10 mi
+        - 10+ mi
+
+
 
   AGGREGATE:
     - column: trip_mode
@@ -92,9 +119,13 @@ trips_merged:
         SHARED3PAY: HOV
         WALK_LOC: Transit
         WALK_LRF: Transit
+        WALK_EXP: Transit
+        WALK_HVY: Transit
         WALK_COM: Transit
         DRIVE_LOC: Transit
         DRIVE_LRF: Transit
+        DRIVE_EXP: Transit
+        DRIVE_HVY: Transit
         DRIVE_COM: Transit
         DRIVEACCESS: Transit
         WALK: Non-Motorized
@@ -113,9 +144,13 @@ trips_merged:
         SHARED3PAY: HOV
         WALK_LOC: Walk to Transit
         WALK_LRF: Walk to Transit
+        WALK_EXP: Walk to Transit
+        WALK_HVY: Walk to Transit
         WALK_COM: Walk to Transit
         DRIVE_LOC: Drive to Transit
         DRIVE_LRF: Drive to Transit
+        DRIVE_EXP: Drive to Transit
+        DRIVE_HVY: Drive to Transit
         DRIVE_COM: Drive to Transit
         WALK: Non-Motorized
         BIKE: Non-Motorized
