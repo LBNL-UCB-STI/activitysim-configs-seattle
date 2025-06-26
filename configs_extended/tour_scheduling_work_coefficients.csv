@@ -26,7 +26,7 @@ coef_first_of_2plus_work_tours_duration_lt_8_hrs,1.98,F
 coef_subsequent_of_2plus_work_tours_duration_lt_8_hrs,2.582,F
 coef_tours_by_worker_duration_lt_8_hrs,0.9126,F
 coef_tours_by_student_duration_lt_8_hrs,2.582,F
-coef_mode_choice_logsum,1.027,F
+coef_mode_choice_logsum,0.8962832757504883,F
 coef_previously_scheduled_tour_ends_in_this_departure_hour,-0.8935,F
 coef_previously_scheduled_tour_begins_in_this_arrival_hour,-1.334,F
 coef_adjacent_window_exists_before_this_departure_hour_first_tour_interaction,0.1771,F

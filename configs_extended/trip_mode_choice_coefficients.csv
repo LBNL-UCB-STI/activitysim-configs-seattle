@@ -11,10 +11,10 @@ coef_nest_TRANSIT_WALKACCESS,0.5,T
 coef_nest_TRANSIT_DRIVEACCESS,0.5,T
 coef_nest_RIDEHAIL,0.36,T
 #,,
-coef_ivt_othmaint_social,-0.0175,F
-coef_ivt_work,-0.022,F
-coef_ivt_univ_school,-0.0271,F
-coef_ivt_escort_shopping_eatout_othdiscr_atwork,-0.0279,F
+coef_ivt_othmaint_social,-0.022190575093505152,F
+coef_ivt_work,-0.025666207263240814,F
+coef_ivt_univ_school,-0.03452381800022829,F
+coef_ivt_escort_shopping_eatout_othdiscr_atwork,-0.0373066687556159,F
 #,,
 coef_age1619_da,0,F
 coef_age010_trn,0,F

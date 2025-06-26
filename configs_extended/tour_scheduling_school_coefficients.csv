@@ -18,7 +18,7 @@ coef_first_of_2plus_school_lt_6_hours,1.487,F
 coef_subsequent_of_2plus_school_lt_6_hours,2.142,F
 coef_school_plus_work_tours_by_student_lt_6_hours,1.73,F
 coef_school_plus_work_tours_by_worker_lt_6_hours,2.142,F
-coef_mode_choice_logsum,2.127,F
+coef_mode_choice_logsum,1.9631524078456573,F
 coef_previous_tour_ends_this_departure_hour,-0.5995,F
 coef_previous_tour_begins_this_arrival_hour,-1.102,F
 coef_adjacent_window_exists_before_this_departure_hour_first_tour_interaction,0.08975,F

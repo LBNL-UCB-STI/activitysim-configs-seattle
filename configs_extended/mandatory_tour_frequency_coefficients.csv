@@ -1,7 +1,7 @@
 coefficient_name,value,constrain
 coef_unavailable,-999,T
-coef_ft_worker_work2_asc,-3.3781,F
-coef_pt_worker_work2_asc,-3.0476,F
+coef_ft_worker_work2_asc,-3.1989263232434215,F
+coef_pt_worker_work2_asc,-3.038888187259044,F
 coef_univ_work1_asc,2.166,F
 coef_univ_work2_asc,-1.3965,F
 coef_univ_school2_asc,-3.7429,F
@@ -20,7 +20,7 @@ coef_under_35_work2,-0.1375,F
 coef_under_35_school1,0.7218,F
 coef_under_35_school2,1.275,F
 coef_under_35_work_and_school,0.9761,F
-coef_can_walk_to_work_work2,0.5268,F
+coef_can_walk_to_work_work2,0.6852103540290557,F
 coef_can_walk_to_work_school2,0.7114,F
 coef_can_walk_to_work_and_school,0.1391,F
 coef_round_trip_auto_time_to_work_work2,-0.0035,F
